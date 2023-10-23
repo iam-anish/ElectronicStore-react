@@ -35,7 +35,7 @@ const CategoryView = () => {
     const categoryInnerView = () => {
         return (
             <>
-               <ListGroup variant="flush" className="sticky-component">
+               <ListGroup variant="flush" className="">
                 <ListGroup.Item as={NavLink} to="/store" action >
                     
                   <span className="ms-2">All Products</span>
